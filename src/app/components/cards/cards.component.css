@@ -1,0 +1,22 @@
+:root {
+    --param1: 1;
+  }
+  
+  #wrap {
+    outline: 1px solid black;
+    padding: calc(var(--param1) * 1rem);
+    display: grid;
+  }
+  
+  #wrap div {
+    outline: 1px solid red;
+    padding: 1rem;
+  }
+  
+  .overlap {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  
